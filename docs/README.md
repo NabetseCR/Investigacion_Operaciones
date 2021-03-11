@@ -73,7 +73,9 @@ Usualmente usar paleta basica introductoria de Mathematica
 Se establecen de la siguiente manera
 
 `x := 3`
+
 `f[x_] := x^2`
+
 *x_ ya que es un parametro, ademas se utiliza := al establecer funciones ya que no queremos que cambie*
 
 **Usos igual =**
@@ -83,8 +85,24 @@ Se establecen de la siguiente manera
 `5+6 == 9+2`
 
 **Comando Random**
+
 Brinda numeros random entre 0 y 1
+
 `Random[]`
+
+**Resolver ecuaciones**
+
+Usamos el comando Solve
+
+`Solve[expresion, variable con respecto a solucionar]`
+
+`Solve[x + 3v == 3v - x, x]`
+
+**Liberar variable**
+
+Usamos Clear
+
+`Clear[a]`
 
 
 

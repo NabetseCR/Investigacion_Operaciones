@@ -46,21 +46,46 @@ Plot[*expresion*, {*variable*, *inicio rango*, *final rango*}]
 **Comentarios en Mathematica**
 `(* Esto es un comentario *)`
 
-**Uso de \%**
+**Uso de %**
 
 Nos permite llamar al ultimo resultado que Mathematica ha emitido, %% seria el penultimo, %%% el antepenultimo y asi sucesivamente.
 
-**Uso de \?**
+**Uso de ?**
 
 Retorna valor y nombre global de una variable, tambien para una palabra reservada nos brinda informacion basica, ?? nos brinda informacion mas detallada, y ???
 
 `?a`
 `?Plot`
-`?\*Plot\* comandos que contienen palabra Plot`
+`?*Plot* comandos que contienen palabra Plot`
 
 *Podemos utilizar el libro de ayuda*, se haciendo lo siguiente:
 1. Ayuda
 2. Primera opcion del menu
+
+
+**Paletas**
+
+Usualmente usar paleta basica introductoria de Mathematica
+
+*Tenemos en el lenguaje los operadores logicos tipicos*
+
+**Constantes**
+Se establecen de la siguiente manera
+
+`x := 3`
+`f[x_] := x^2`
+*x_ ya que es un parametro, ademas se utiliza := al establecer funciones ya que no queremos que cambie*
+
+**Usos igual =**
+
+== es usado para comparaciones 
+
+`5+6 == 9+2`
+
+**Comando Random**
+Brinda numeros random entre 0 y 1
+`Random[]`
+
 
 
 
